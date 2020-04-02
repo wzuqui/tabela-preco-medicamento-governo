@@ -26,7 +26,7 @@ async function crawler() {
     .on('error', error => console.error(error))
     .on('close', () => {
       fs.createReadStream(destino, {
-        encoding: 'ascii'
+        encoding: 'latin1'
       })
         .pipe(csv.parse({ delimiter: ';', headers: true }))
         .on('error', error => console.error(error))
