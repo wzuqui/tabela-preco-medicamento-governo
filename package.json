@@ -1,0 +1,20 @@
+{
+  "name": "medicine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.1.2",
+    "@fast-csv/parse": "^4.1.2",
+    "fast-csv": "^4.1.3"
+  }
+}
