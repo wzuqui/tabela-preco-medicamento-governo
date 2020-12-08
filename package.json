@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@fast-csv/format": "^4.1.2",
-    "@fast-csv/parse": "^4.1.2",
+    "@fast-csv/parse": "^4.3.6",
     "fast-csv": "^4.1.3"
   }
 }
